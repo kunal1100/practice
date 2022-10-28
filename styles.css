@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0px;
+}
+.navbar-brand img{
+    width: 80px;
+}
+.search{
+    top: 100px;
+}
+.searchfield1{
+    width: 480px;
+    height: 52px;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ECECEC;
+    font-size: 20px;
+    font-weight:400;
+}
+.buttons{
+    display: flex;
+    position: absolute;
+    top: 70px;
+}
+.yourcart{
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 52px;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 15px;
+}
+.wishlist{
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 52px;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 15px;
+}
+.herotext{
+    position: absolute;
+    top: 200px;
+}
+.head{
+    font-size: 78px;
+    font-weight: bold;
+    line-height: 90px;
+    font-family:'Times New Roman', Times, serif;
+}
+.desc{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.airforceimage img{
+    width: 650px;
+    margin-left: 580px;
+    margin-top: 150px;
+}
+#shopaf1{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+}
+#learnmore{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    border: 3px solid black;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.herobuttons{
+    position: absolute;
+    top: 550px;
+}
+.findyourfast{
+    text-align: center;
+    margin-top: 100px;
+}
+.justin{
+    font-size: 22px;
+    font-weight: 400;
+}
+.head1{
+    font-size: 58px;
+    font-weight: 800;
+}
+.desc1{
+    font-size: 22px;
+    font-weight: 400;
+}
+.shopall{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 52px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px;
+}
+.heroimage img{
+    width: 1325px;
+}
+.head1{
+    font-size: 58px;
+    font-weight: 800;
+}
+.card{
+    border: none;
+    display: inline-block;
+}
+@media only screen and (min-width: 200px) and (max-width:767px) {
+
+    .searchfield1{
+        width: 350px;
+        height: 32px;
+        padding: 20px;
+        border-radius: 30px;
+        border: none;
+        background-color: #ECECEC;
+        font-size: 16px;
+        font-weight:400;
+    }
+    .buttons{
+        top: 100px;
+    }
+    .yourcart{
+        background-color: black;
+        color: white;
+        width: 150px;
+        height: 3px;
+        border-radius: 30px;
+        padding: 10px;
+        font-size: 16px;
+        text-align: center;
+        margin-left: 15px;
+        display: none;
+    }
+    .wishlist{
+        background-color: black;
+        color: white;
+        width: 300px;
+        height: 52px;
+        border-radius: 30px;
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 15px;
+        display: none;
+    }
+    .airforceimage img{
+        width: 370px;
+        margin-left: -25px;
+        margin-top: 100px;
+    }
+    .herotext{
+        position: absolute;
+        top: 400px;
+    }
+    .head{
+        font-size: 54px;
+        font-weight: bold;
+        line-height: 65px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    .desc{
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 50px;
+    }
+    .herobuttons{
+        position: absolute;
+        top: 700px;
+    }
+    .desc{
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 30px;
+    }
+    .findyourfast{
+        text-align: center;
+        margin-top: 400px;
+    }
+    .justin{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .head1{
+        font-size: 44px;
+        font-weight: 800;
+        line-height: 50px;
+    }
+    .desc1{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .heroimage img
+    {
+        width: 350px;
+    }
+    .card{
+        width: 19rem;
+    }
+}
